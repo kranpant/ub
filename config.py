@@ -41,7 +41,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 SUDO_USERS = list(
-    map(int, getenv("SUDO_USERS", "8066540989").split())
+    map(int, getenv("SUDO_USERS", "5533647702").split())
 )
 
 for y in OWNER_ID:
