@@ -13,7 +13,7 @@ SESSION1 = getenv("SESSION1", "BQFwyZ4AKb6IsaUfdM8e_hk2C1qTdHV5pLv8ZAO9QhxxG3mXG
 BOT_TOKEN = getenv("BOT_TOKEN", "6513440724:AAHPn5TU4o6z5i5q5EtXpY79vv5aO7e951M")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5533647702").split())
+    map(int, getenv("OWNER_ID", "8066540989").split())
 )
 
 # ------------------------------ OPTIONAL ------------------------------ #
