@@ -13,7 +13,7 @@ SESSION1 = getenv("SESSION1", "BQFwyZ4AKb6IsaUfdM8e_hk2C1qTdHV5pLv8ZAO9QhxxG3mXG
 BOT_TOKEN = getenv("BOT_TOKEN", "6513440724:AAHPn5TU4o6z5i5q5EtXpY79vv5aO7e951M")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6762113050").split())
+    map(int, getenv("OWNER_ID", "8066540989").split())
 )
 
 # ------------------------------ OPTIONAL ------------------------------ #
@@ -41,7 +41,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 SUDO_USERS = list(
-    map(int, getenv("SUDO_USERS", "6919199044").split())
+    map(int, getenv("SUDO_USERS", "8066540989").split())
 )
 
 for y in OWNER_ID:
