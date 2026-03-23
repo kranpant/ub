@@ -9,11 +9,11 @@ if path.exists(".env"):
 
 API_ID = int(getenv("API_ID", "38551072"))
 API_HASH = getenv("API_HASH", "8bbac8430f33a258d0b650f019b76f6d")
-SESSION1 = getenv("SESSION1", "BQFwyZ4AKb6IsaUfdM8e_hk2C1qTdHV5pLv8ZAO9QhxxG3mXGc_kT8vdXXPeV4PYgwWdcRK9adhwg4fAU8YzFQSq2bZV7pdDv9Ibylgzrn2of7WNqDAhx0C_4ZZN-XFiw0TXBKe4c1NcLJXkJs68b0lhUCRaPpCq54yuvJgqtnFYBAJG0Vdox6BE0Wyk9Mxbn9kdZN_0HklRZD09NoLAN3mMqoXvWvX8q4HM5-3s4wstXbtNn0EpqfivBfnwr_OQnrtyGnY4laZk4rQ8vpn7j1DEv7eIgFngJbALuDIWmzwZihAnlY1ebCMDDAjDTEYtXB8_8PTqYdYWxT25VxOZdZ12HxBXdQAAAAHgzaW9AA")
+SESSION1 = getenv("SESSION1", "BQIXARUABg05Bpcj9b50oLkmolwsFUtoEWQinQpexSWKy9xzrGt-cP5RXfStvTqhcV2uMmBhoZ7DJTuwm2m3CSfISnz3kVFKcPeIp48k9SjoBXotP3it0ezAJOuC2cGSPTn8PtFoUv5mGtycBCH64-hNxnI7xyXINx8eW5d4npLw20um6R6AR0bF0VRA5rnxz_HgwQqYFah2Gyj2-qOPYiZ11vayjBgpvwI4V4F2ASlTA6kFig5iZSGrm19uLdvhaqsv-5kC4g7If_2fq9BswX_Cqq0MIpBiHJgRSHc4x1kAgwyQkRViFmEJB_Upn2C4JzXON1fXrW54I-SbORdOaIFfP3_saAAAAAGVFGUPAA")
 BOT_TOKEN = getenv("BOT_TOKEN", "6513440724:AAHPn5TU4o6z5i5q5EtXpY79vv5aO7e951M")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "8066540989").split())
+    map(int, getenv("OWNER_ID", "6796109071").split())
 )
 
 # ------------------------------ OPTIONAL ------------------------------ #
@@ -41,7 +41,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 SUDO_USERS = list(
-    map(int, getenv("SUDO_USERS", "8066540989").split())
+    map(int, getenv("SUDO_USERS", "6796109071").split())
 )
 
 for y in OWNER_ID:
