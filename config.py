@@ -7,8 +7,8 @@ if path.exists(".env"):
 
 # ------------------------------ REQUIRED ------------------------------ #
 
-API_ID = int(getenv("API_ID", "38551072"))
-API_HASH = getenv("API_HASH", "8bbac8430f33a258d0b650f019b76f6d")
+API_ID = int(getenv("API_ID", "27433131"))
+API_HASH = getenv("API_HASH", "7f8d967471ccadf83df1f199769b43e7")
 SESSION1 = getenv("SESSION1", "BQIXARUABg05Bpcj9b50oLkmolwsFUtoEWQinQpexSWKy9xzrGt-cP5RXfStvTqhcV2uMmBhoZ7DJTuwm2m3CSfISnz3kVFKcPeIp48k9SjoBXotP3it0ezAJOuC2cGSPTn8PtFoUv5mGtycBCH64-hNxnI7xyXINx8eW5d4npLw20um6R6AR0bF0VRA5rnxz_HgwQqYFah2Gyj2-qOPYiZ11vayjBgpvwI4V4F2ASlTA6kFig5iZSGrm19uLdvhaqsv-5kC4g7If_2fq9BswX_Cqq0MIpBiHJgRSHc4x1kAgwyQkRViFmEJB_Upn2C4JzXON1fXrW54I-SbORdOaIFfP3_saAAAAAGVFGUPAA")
 BOT_TOKEN = getenv("BOT_TOKEN", "6513440724:AAHPn5TU4o6z5i5q5EtXpY79vv5aO7e951M")
 
